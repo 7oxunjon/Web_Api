@@ -17,5 +17,6 @@ namespace Api_Web.Context
                 WithOne(p => p.Country).
                 HasForeignKey(p => p.CountryId);
         }
+        //////
     }
 }
